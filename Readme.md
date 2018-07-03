@@ -13,7 +13,8 @@
 1. Proceed through the intial setup wizard.
     1. For DEP enrolled systems, you will be notified that your organization will configure the machine. The initial admin user account can be pushed to the system as part of this process.
     1. For non-DEP systems, you will proceed through the entire setup process, and manually create the first administrative user account.
-1. Part of the MDM enrollment will install a package utilizing Erik Gomez's "Install Applications" - triggering several followup installs.
+1. Enroll the system in MDM of choice - I use MicroMDM. I'd suggest pushing a UASKEL profile during this phase as part of the default config.
+1. Part of the MDM enrollment will install a single package utilizing Erik Gomez's "Install Applications" - triggering several followup installs.
 1. The new packages will include Munki Tools, DEPNotify, and an initial Router enrollment package.
     1. This package reads the serial number from the system, executing a curl command which touches the enroll.py API, enrolling the machine in the Router barrel.
 1. Locate the machine's manifest, by serial number, in the router barrel.
