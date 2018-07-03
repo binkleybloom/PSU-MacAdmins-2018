@@ -1,0 +1,2 @@
+BarrelID,BarrelURL,AuthString,version,installer signature,enroller URL
+Finance,https://munki-barrel.yourdomain.tld,Authorization: basic hA5heDVa1uEF0RAUTH,1.0,Developer ID Installer: YourOrgDevCert (SOMEHASHID),https://enroll-url.yourdomain.tld/enroll.py
