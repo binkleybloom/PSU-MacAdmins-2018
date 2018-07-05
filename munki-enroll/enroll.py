@@ -41,7 +41,7 @@ import os
 #==== Configuration block ====#
 
 ## recognized munki barrels "barrelID":"pathToRepo"
-repoPaths = {  # configure dictionary with barrelID & Path - don't forget your router entry!
+repoPaths = {  # configure dictionary with barrelID & Path.
     "academics": "/var/vhosts/academics/httpsdocs",
     "finance": "/var/vhosts/finance/httpsdocs",
     "router": "/var/vhosts/router/httpsdocs"
